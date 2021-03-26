@@ -1,0 +1,304 @@
+html,
+body {
+  margin: 0;
+  background-color: #e9cba7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.navbar img{
+  width: 50px;
+  margin: 5px;
+  padding: 0;
+}
+
+.navbar, .container-fluid{
+  background-color: #000000;
+}
+
+#carouselExampleSlidesOnly{
+  transition: transform 1s ease, opacity .5s ease-out;
+}
+
+#uzumaki{
+  color: #e9cba7;
+  margin: 0;
+  padding: 5px;
+}
+
+#uzumaki:hover{
+  color: #98694F;
+}
+
+#navbarNavAltMarkup a {
+  color: #e9cba7;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0 10px;
+}
+
+#navbarNavAltMarkup a:hover{
+  color: #98694F;
+}
+
+#main{
+  background-color: #3b2621;
+}
+
+.cup{
+  text-align: center;
+  background-color: transparent;
+}
+
+.cup > .row > .col-md-6{
+  padding: 10px;
+}
+
+#main-text{
+  text-align: center;
+  color: #98694F;
+  margin: auto 0;
+  padding: 10px;
+}
+
+#main-text p{
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin: 5px;
+}
+
+#main-text h1{
+  font-size: 60px;
+  margin: 5px;
+}
+
+#mockup{
+  width: 70%;
+  height: 90%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.bar{
+  background-color: #e9cba7;
+  text-align: center;
+}
+
+.bar p{
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.bar img{
+  height: 200px;
+  margin: 30px 0;
+  
+}
+
+.bar > .row > .col-md-4{
+  padding: 10px;
+}
+
+.cards{
+  background-color: #e9cba7;
+  font-weight: bold;
+  text-align: left;
+}
+
+.offers{
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.offer-card-link{
+  margin: 0 auto;
+  color: #3b2621;
+  text-align: -webkit-center;
+  text-decoration: none;
+}
+.offer-card-link:hover{
+  color: #98694fe7;
+}
+
+
+#offer-title{
+  text-align: center;
+  color: #e9cba7;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#offer-title > h2{
+  margin: 0;
+}
+
+#offers > .row > .col-md-4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom-width: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body{
+  text-decoration: none;
+  color: #3b2621;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.card-body:hover{
+  text-decoration: none;
+  color: #98694fe7;
+}
+
+.offers-link{
+  text-decoration: none;
+  color: #e9cba7;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.offers-link:hover{
+  text-decoration: none;
+  color: #98694fe7;
+}
+
+.about-text{
+  color:#3b2621;
+}
+
+.footer{
+  color: #e9cba7;
+  padding: 0px;
+  margin: 0;
+  height: 10%;
+  text-align: center;
+}
+
+.footer > .row > .col-md-4{
+  padding: 10px;
+}
+
+.footer > .row > .col-md-4 > h3{
+  margin: 20px;
+}
+
+.footer > .row > .col-md-4 > p{
+  margin: 10px;
+}
+
+.footer > .row > .col-xl-12 > p{
+  margin: 0;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+
+.backToTop {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #66462F;
+  color:#e9cba7;
+  text-decoration: none;
+  display: none;
+  border-radius: 3px;
+  border: 0;
+  text-align: center;
+  font-size: 18px;
+  padding: .6rem;
+}
+.backToTop:hover{
+  color: #3b2621;
+  background-color: #e9cba7;
+}
+
+@media screen and (min-width: 768px){
+  .offers img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #main-text h1{
+    font-size: 50px;
+  }
+  p{
+    font-size: 15px;
+  }
+  
+  @media screen and (min-width: 1200px){
+    #main-text h1{
+      font-size: 80px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 2000px){
+    #main-text h1{
+      font-size: 120px;
+    }
+    #main-text p{
+      font-size: 50px;
+    }
+    .bar p{
+      font-size: 40px;
+    }
+    p{
+      font-size: 40px;
+    }
+    #navbarNavAltMarkup a {
+      color: #e9cba7;
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 1px;
+      margin: 0 10px;
+    }
+    #uzumaki{
+      font-size: 40px;
+      
+    }
+    .navbar img{
+      width: 70px;
+
+    }
+  }
+  @media screen and (min-width: 4000px){
+    #main-text h1{
+      font-size: 150px;
+    }
+    #main-text p{
+      font-size: 65px;
+    }
+    .bar p{
+      font-size: 55px;
+    }
+    p{
+      font-size: 40px;
+    }
+    #navbarNavAltMarkup a {
+      color: #e9cba7;
+      font-weight: bold;
+      font-size: 40px;
+      letter-spacing: 1px;
+      margin: 0 10px;
+    }
+    #uzumaki{
+      font-size: 40px;
+    }
+    .navbar img{
+      width: 80px;
+    }
+  }
+} 
+
